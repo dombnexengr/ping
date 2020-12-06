@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 
-const client = new Discord.Client('365210839944265729');
-
+const client = new Discord.Client();
+const prefix = `!eg`;
  
 
 client.on('ready', () => {
