@@ -15,7 +15,7 @@ client.on('message', message => {
 
     if (message.content === '!egping') {
 
-       message.channel.send(`:EnigmaLogoBig500: | Latency is: **${Date.now() - message.createdTimestamp}ms.**`);
+       message.channel.send(`🃏 | Latency is: **${Date.now() - message.createdTimestamp}ms.**`);
        }
 
 });
