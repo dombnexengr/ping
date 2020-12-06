@@ -15,7 +15,6 @@ client.on('message', message => {
 
     if (message.content === '!egping') {
 
-       //message.reply('pong');
        message.channel.send(`🏓 | Latency is: **${Date.now() - message.createdTimestamp}ms.**`);
        }
 
