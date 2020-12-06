@@ -1,8 +1,7 @@
 const Discord = require('discord.js');
 
 const client = new Discord.Client();
-const prefix = `!eg`;
- 
+
 
 client.on('ready', () => {
 
@@ -14,7 +13,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
 
-    if (message.content === 'ping') {
+    if (message.content === '!egping') {
 
        //message.reply('pong');
        message.channel.send(`🏓 | Latency is: **${Date.now() - message.createdTimestamp}ms.**`);
